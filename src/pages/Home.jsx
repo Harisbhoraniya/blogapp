@@ -7,16 +7,17 @@ import Footer from "../components/Footer";
 
 const Home = () => {
   return (
-    <div className="px-4 md:px-8 lg:px-16">
-      <>
-        <Navbar />
+    <>
+      <Navbar />
+      <div className="px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20">
         <Header />
         <BlogList />
         <Newsletter />
-        <Footer />
-      </>
-    </div>
+      </div>
+      <Footer />
+    </>
   );
 };
 
 export default Home;
+
